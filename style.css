@@ -1,0 +1,285 @@
+* {
+  border: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  max-width: 1920px;
+}
+
+/* Banner */
+
+.primary-btn {
+  border-radius: 8px;
+  border: 0px;
+  padding: 20px 43px;
+  font-size: 20px;
+  margin-top: 50px;
+  background: #e55473;
+  color: white;
+}
+
+.primary-btn:hover {opacity: 0.6}
+
+.ban-img {
+  width: 635px;
+  height: 750px;
+  margin-bottom: 0px;
+}
+
+.header {
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.ban-text {
+  color: #272727;
+  font-weight: 800;
+  font-size: 80px;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+.nav p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Feature */
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fe-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+.feature p {
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.flow-Con {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin: 100px 240px 30px 240px;
+}
+
+.flow-6 {
+  display: flex;
+  align-items: end;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 120px 50px 0px 50px;
+}
+
+.flow-5 {
+  display: flex;
+  align-items: end;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 110px 50px 50px 50px;
+}
+
+.flow-7 {
+  display: flex;
+  align-items: end;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 120px 50px 0px 50px;
+}
+
+.ff-text {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.ff-text p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+/* Service */
+
+.ser-part {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 10px;
+  padding: 85px 200px;
+  margin: 80px;
+  font-weight: 100;
+  gap: 40px;
+}
+
+/* Sign up */
+
+.Sign {
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.05);
+  border-radius: 8px;
+  margin-right: 0px;
+}
+
+.Sign-text h3 {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.Sign-text p {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 400;
+}
+
+span {
+  color: #e55473;
+}
+
+.sign-img {
+  height: 420px;
+  padding-left: 100px;
+  width: 318px;
+}
+
+/* Instagram */
+
+.Insta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.Insta-text h3 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.Insta-text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Insta-con {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Subscribe */
+
+.subs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Asset/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  height: 449px;
+  margin-left: 290px;
+}
+
+.subs-text h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #272727;
+}
+
+.subs-text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subs-input input {
+  border-radius: 8px;
+  background: #fff;
+  width: 700px;
+  height: 60px;
+}
+
+/* Footer */
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #111010;
+  margin-top: 100px;
+  height: 449px;
+}
+
+.flower {
+  color: #e55473;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.shop {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+Footer p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+footer h6 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
